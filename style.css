@@ -19,7 +19,7 @@
     height: 200px;
     background-color: #DDDDDD;
     margin: 0 auto;
-    font-size: 130px;
+    font-size: 100px;
     text-align: center;
     color: blue;
     font-style: italic;
@@ -35,3 +35,35 @@ p {
     margin-left: 50px;
     font-size: 20px;
 }
+
+.formularz {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wiersz {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input {
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .formularz {
+    color: blue;
+  }
+
+  button {
+    flex: 2;
+    max-width: 300px;
+    margin-right: 10px;
+  }
