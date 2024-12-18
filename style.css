@@ -1,0 +1,37 @@
+.rectangle {
+    display: flex;
+    opacity: 1;
+    text-align: left;
+    line-height: 100px;
+    color: blue;
+    text-size-adjust: 20px;
+    width: 90%;
+    height: 100px;
+    background-color: lightblue;
+    margin: 0 auto;
+    font-size: 120px;
+}
+
+.inne {
+    display: flex;
+    opacity: 1;
+    width: 90%;
+    height: 200px;
+    background-color: #DDDDDD;
+    margin: 0 auto;
+    font-size: 130px;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+p {
+    color: blue;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
